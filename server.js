@@ -18,7 +18,8 @@ app.use(express.static('public'));
 // route for an example of how AJAX was intended to be used.
 app.get("/hello", (req,res)=> {
   const name = req.query.name;
-  
+  let page ="<html><head><title>HelloApp</title></head><body>";
+      page += `<h1>Hello, ${name}</h1></body></html>`;
   res.send(page);
 });
 
