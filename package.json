@@ -1,0 +1,26 @@
+{
+  "name": "helloworldapp",
+  "version": "1.0.0",
+  "description": "Example of using routes in class.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssigman/helloWorldApp.git"
+  },
+  "keywords": [
+    "API",
+    "Routers"
+  ],
+  "author": "S. Sigman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssigman/helloWorldApp/issues"
+  },
+  "homepage": "https://github.com/ssigman/helloWorldApp#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
